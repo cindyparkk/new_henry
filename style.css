@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+}
+
+#page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    border: 1px solid black;
+    /* width: 40%;
+    height: 25%; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#input {
+    padding: 10px;
+}
+
+button {
+    /* width: 50px;
+    height: 30px; */
+    border-radius: 5px;
+}
