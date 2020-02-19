@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+#j_app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#j_mid > div {
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#j_mid {
+    border: 2px black solid;
+    font-size: 30px;
+    padding: 40px;
+
+}
