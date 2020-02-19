@@ -1,0 +1,39 @@
+body,html {
+    margin:0;
+}
+
+#h_app {
+    width: 100vw;
+    height:100vh;
+}
+.flexed {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:100vh;
+}
+
+#box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* width: 320px;
+    height: 220px; */
+    border: 1px solid black;
+}
+
+#h_q {
+    font-size: 25px;
+    padding:5px;
+    text-align: center;
+}
+
+#answer {
+    padding: 3px;
+}
+
+#textandbutton {
+    padding:5px;
+}
