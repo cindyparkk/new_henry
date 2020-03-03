@@ -8,7 +8,7 @@ var data= {
         {
             title:"What comes after A?",
             answer: "B",
-            bgcolor: "Yellow",
+            bgcolor: "#ADD",
             imgs: "http://placekitten.com/100/100"
         },
         {
@@ -116,7 +116,8 @@ function checkAnswer(){
         document.body.style.backgroundColor = data.questions[data.qnum].bgcolor;
         document.querySelector("#h_r").innerHTML = "<img src='"+data.questions[data.qnum].imgs+"' />"
     } else{
-        document.querySelector("#h_r").innerText = "<h1>Wrong!</h1>";
+        document.querySelector("#h_r").innerText = "Wrong!";
+        healthBar();
     }
 }
 
