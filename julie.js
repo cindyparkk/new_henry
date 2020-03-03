@@ -63,6 +63,8 @@ function Start(){
 }
 
 
+
+
 function CheckAnswer(){
 
     var myInp = document.querySelector("#answer").value;
@@ -91,6 +93,8 @@ function CheckAnswer(){
     } else {
         // alert("WRONG!");
         document.querySelector("#j_result").innerText = "<h1>Wrong!</h1>";
+        changeHelp();
+
     }
 
 }
