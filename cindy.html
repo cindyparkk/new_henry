@@ -4,6 +4,7 @@
         <title>Class 7</title>
         <link href="style.css" rel="stylesheet">
         <link href="healthbar.css" rel="stylesheet">
+        <link href="messagebar.css" rel="stylesheet">
     </head>
     <body>
         <div id="healthbar_box">
@@ -13,13 +14,19 @@
             <div id="main">
                 <h2 id="main_q">What Comes After A?</h2>
                 <div id="input">
-                    <input id="answer" type="text" name="answer" placeholder="Type your answer here">
+                    <input onkeyup="changeMessage(1)" id="answer" type="text" name="answer" placeholder="Type your answer here">
                     <button onclick="checkAnswer()" id="button-enter">Check your answer</button>
                 </div>
                 <div id="h_r"></div>
             </div>
         </div>
+        <div id="messagediv">
+            <div id="messagebar">
+                <div id="message"></div>
+            </div>
+        </div>
         <script src="java.js"></script>
         <script src="healthbar.js"></script>
+        <script src="messagebar.js"></script>
     </body>
 </html>
