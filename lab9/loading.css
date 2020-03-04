@@ -1,0 +1,16 @@
+#loading_bar{
+    width: 80vw;
+    height: 80px;
+    position: absolute;
+    margin: 10px;
+    bottom: 0;
+    border: solid 3px black;
+    background-color: blanchedalmond;
+}
+
+#inside{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
