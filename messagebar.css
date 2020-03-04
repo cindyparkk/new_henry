@@ -1,0 +1,23 @@
+#messagediv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -10em;
+}
+#messagebar {
+    border: 1px solid black;
+    width: 20vw;
+    height: 3vh;
+}
+
+#message {
+    text-align: center;
+    font-size: 3vw;
+    width: 100%;
+    height: 3vh;
+    transition: 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

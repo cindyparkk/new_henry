@@ -115,9 +115,11 @@ function checkAnswer(){
         document.querySelector("#main_q").innerText = data.questions[data.qnum].title;
         document.body.style.backgroundColor = data.questions[data.qnum].bgcolor;
         document.querySelector("#h_r").innerHTML = "<img src='"+data.questions[data.qnum].imgs+"' />"
+        changeMessage(0);
     } else{
         document.querySelector("#h_r").innerText = "Wrong!";
         healthBar();
+        changeMessage(2);
     }
 }
 
